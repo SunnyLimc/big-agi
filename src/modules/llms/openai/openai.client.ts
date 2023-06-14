@@ -7,7 +7,7 @@ import { normalizeOAISetup, SourceSetupOpenAI } from './openai.vendor';
 
 export const hasServerKeyOpenAI = !!process.env.HAS_SERVER_KEY_OPENAI;
 
-export const isValidOpenAIApiKey = (apiKey?: string) => !!apiKey && apiKey.startsWith('sk-') && apiKey.length > 40;
+export const isValidOpenAIApiKey = (apiKey?: string) => !!apiKey; // && apiKey.startsWith('sk-') && apiKey.length > 40; // Remove limit to increase compatibility with alternaive sites
 
 
 /**
