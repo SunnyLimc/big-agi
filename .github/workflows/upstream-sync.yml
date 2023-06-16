@@ -18,6 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.repository.fork }}
 
+    permissions:
+      contents: read
+      packages: write
+
     steps:
       # Step 1: run a standard checkout action
       - name: Checkout target repo
