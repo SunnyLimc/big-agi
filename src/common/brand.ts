@@ -22,9 +22,9 @@ export const Brand = {
   },
   URIs: {
     // Slug: 'big-agi',
-    Home: 'https://big-agi.com',
-    CardImage: 'https://big-agi.com/icons/card-dark-1200.png',
-    OpenRepo: 'https://github.com/enricoros/big-agi',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
+    Home: 'https://bigagi.uniq.moe',
+    CardImage: 'https://bigagi.uniq.moe/icons/card-dark-1200.png',
+    OpenRepo: 'https://github.com/SunnyLimc/big-agi',
+    SupportInvite: '#',
   },
 };
