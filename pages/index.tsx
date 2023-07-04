@@ -1,16 +1,14 @@
 import * as React from 'react';
 
+import { Chat } from '../src/apps/chat/Chat';
+import { useShowNewsOnUpdate } from '../src/apps/news/news.hooks';
+
 import { AppLayout } from '~/common/layouts/AppLayout';
 
-import { Chat } from '../src/apps/chat/Chat';
 
-
-export default function Home() {
-  // const router = useRouter();
-  // React.useEffect(() => {
-  //   // noinspection JSIgnoredPromiseFromCall
-  //   router.replace('/chat');
-  // }, [router]);
+export default function HomePage() {
+  // show the News page on updates
+  useShowNewsOnUpdate();
 
   return (
     <AppLayout>
